@@ -16,6 +16,6 @@ DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
 PRODUCT_NAME := cm_clark
 PRODUCT_BRAND := Android
 PRODUCT_DEVICE := clark
-PRODUCT_MODEL := XT1575
+PRODUCT_MODEL := XT1570
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
