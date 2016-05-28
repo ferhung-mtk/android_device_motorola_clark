@@ -166,3 +166,6 @@ ro.usb.ptp_adb=0x2e84
 
 # Wifi Display
 persist.sys.wfd.virtual
+
+# Timezone
+persist.sys.timezone=Asia/Shanghai
