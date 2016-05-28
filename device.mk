@@ -96,6 +96,10 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     ueventd.qcom.rc
 
+# TWRP
+PRODUCT_PACKAGES += \
+    twrp.fstab
+
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
