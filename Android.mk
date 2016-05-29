@@ -70,4 +70,9 @@ $(FIRMWARE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(PERSIST_WCNSS) $(WCNSS_CFG_INI) $(IMS_SYMLINKS) $(WV_SYMLINKS) $(FIRMWARE_SYMLINKS)
 
+# Symlink spn-conf.xml to selective-spn-conf.xml
+$(shell mkdir -p $(TARGET_OUT)/etc; \
+    ln -sf /system/etc/selective-spn-conf.xml \
+	   $(TARGET_OUT)/etc/spn-conf.xml)
+
 endif
